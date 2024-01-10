@@ -31,6 +31,14 @@ const minilog = {
   justifyContent: 'center',
   alignItems: 'center',
 }
+
+const text = {
+  marginTop: 60,
+  color: "#FFFF",
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+}
 // const headingAccentStyles = {
 //   color: "#663399",
 // }
@@ -161,6 +169,7 @@ const IndexPage = () => {
 </nav>
     <main style={pageStyles}>
       <img style={headingStyles} src={logotipo} alt="Logomarca" />
+      <h1 style={text}>Site em construção...</h1>
     </main>
     </>
   )
