@@ -7,7 +7,6 @@ const pageStyles = {
   color: "#232129",
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
-  background: "#DFC2BE",
 }
 
 const headingStyles = {
@@ -169,7 +168,6 @@ const IndexPage = () => {
 </nav>
     <main style={pageStyles}>
       <img style={headingStyles} src={logotipo} alt="Logomarca" />
-      <h1 style={text}>Site em construção...</h1>
     </main>
     </>
   )
