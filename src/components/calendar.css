@@ -13,7 +13,7 @@
   justify-content: center;
   align-items: center;
   min-height: 350px;
-  width: 300px;
+  width: 400px;
   flex-direction: column;
   gap: 35px;
   background: #DFC2BE;
@@ -92,14 +92,4 @@
 .enter:hover {
   background-color: #AD7D57;
   color: white;
-}
-
-@media only screen and (max-width: 768px) {
-  .card {
-    width: 80%; /* Ajuste o tamanho conforme necessário */
-  }
-
-  .inputBox {
-    width: 80%; /* Ajuste o tamanho conforme necessário */
-  }
 }

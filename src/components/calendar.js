@@ -36,11 +36,11 @@ const AgendamentoForm = () => {
 
     
     <div className="inputBox">
-        <input required="required" type="text" value={formData.nome} onChange={handleChange} />
+        <input type="text" name="nome" required="required" value={formData.nome} onChange={handleChange} />
         <span className='user'>Digite seu nome</span>
       </div>
       <div className="inputBox">
-        <input type="email" name="email" required="required" value={formData.email} onChange={handleChange} />
+        <input type="text" name="email" required="required" value={formData.email} onChange={handleChange} />
         <span className='user'>Digite seu E-mail</span>
         </div>
         <button type="button" className='enter' onClick={handleSubmit}>
