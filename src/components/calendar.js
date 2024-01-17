@@ -19,8 +19,7 @@ const AgendamentoForm = () => {
     } else {
       const message = `
         Olá, tudo bem? Vim pelo site e gostaria de marcar uma consulta contigo.
-        Nome: ${nome}
-        E-mail: ${email}
+        Meu nome é ${nome} e meu endereço de email: ${email}
       `;
       const url = `https://wa.me/5582999520233?text=${encodeURIComponent(message)}`;
       window.location.href = url;
