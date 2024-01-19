@@ -3,6 +3,7 @@ import "../../global.css"
 import logotipo from '../images/logotipo-principal-rosa.png'
 import minilogo from "../images/maca-dagua-branca.png"
 import AgendamentoForm from "../components/calendar"
+import img1 from '../images/logipo-principal.png'
 
 const calendarStyles = {
  
@@ -39,8 +40,13 @@ const IndexPage = () => {
   </div>
 </nav>
     <main>
-      <div className="banner">
+      <div className="image-container">
       {/* <img className="headingStyles" src={logotipo} alt="Logomarca" /> */}
+      <img
+          className="image"
+          src={img1}
+          alt="First slide"
+        />
       </div>
       
       <div style={calendarStyles}>

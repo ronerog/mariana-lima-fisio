@@ -1,6 +1,6 @@
 @font-face {
   font-family: TextaThintIt;
-  src: url(C:\Users\roner\OneDrive\Documentos\GitHub\site-mariana-fisio\mariana-lima-fisio\src\fonts\TextaThin.ttf);
+  src: url(/src/fonts/TextaThin.ttf);
 }
 
 html, body {
@@ -23,13 +23,14 @@ const header {
   .headingStyles {
     width: 50vw;
     height: 100vw;
-    display: block;
+    
     margin-bottom: 50px;
   }
   nav{
     position: fixed;
     z-index: 99;
     width: 100%;
+    
     background: #D0A099;
   }
   nav .wrapper{
@@ -60,12 +61,26 @@ const header {
     border-radius: 5px;
     letter-spacing: 2px;
     display: block;
-    font-weight: bold;
-    font-size: x-large;
+    font-weight: 500;
+    font-size: normal;
     transition: all 0.3s ease;
   }
   .nav-links li a:hover{
     background: #DFC2BE;
   }
+
+  .image-container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    height: 400px;
+    max-height: 100%; /* Isso evita que a imagem ultrapasse a altura do contêiner */
+    object-fit: cover;
+}
+
 
   
